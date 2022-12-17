@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+}
+
+h1{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.692);
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+input{
+    color: black;
+    padding: 18px;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5%;
+    border-color: rgba(0, 0, 0, 0.404);
+    border-width: 1px;
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.num1{
+    width: 142px;
+    height: 67px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.num2{
+    width: 64px;
+    height: 67px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.num3{
+    width: 64px;
+    height: 67px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.main .num3:hover{
+    background-color: rgb(255, 198, 160);
+}
+
+.main .num2:hover{
+    background-color: rgb(194, 198, 255);
+}
+
+.main .num1:hover{
+    background-color: rgb(198, 250, 200);
+}
+
+.main .num:hover{
+    background-color: rgb(216, 174, 255);
+}
+
+.main .text1:hover{
+    background-color: rgb(255, 210, 168);
+}
+
+.text{
+    width: 84%;
+    height: 5%;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-align: right;
+    margin-bottom: 12px;
+    margin: 5px;
+}
+
+.text1{
+    width: 97%;
+    height: 5%;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.main{
+    display: inline-block;
+    border: 2px solid;
+    color: rgba(0, 0, 0, 0.404);
+    margin: 5px;
+    padding: 10px;
+}
+
+.maincolor{
+    background-color: white;
+}

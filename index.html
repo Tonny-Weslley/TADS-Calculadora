@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div>
+        <h1>Calculadora</h1>
+        <div class="main">
+            <form action="" name="Calculator">
+
+                <input type="text" class="text maincolor" name="text1" id="visor" disabled><br>
+
+                <input type="button" class="num maincolor" name="b7" value="7" onclick="addNumber(7)">
+                <input type="button" class="num maincolor" name="b8" value="8" onclick="addNumber(8)">
+                <input type="button" class="num maincolor" name="b9" value="9" onclick="addNumber(9)">
+                <input type="button" class="num2 maincolor" name="add" value="+" onclick="somar()"><br>
+
+                <input type="button" class="num maincolor" name="b4" value="4" onclick="addNumber(4)">
+                <input type="button" class="num maincolor" name="b5" value="5" onclick="addNumber(5)">
+                <input type="button" class="num maincolor" name="b6" value="6" onclick="addNumber(6)">
+                <input type="button" class="num2 maincolor" name="sub" value="-" onclick="subtrair()"><br>
+
+                <input type="button" class="num maincolor" name="b1" value="1" onclick="addNumber(1)">
+                <input type="button" class="num maincolor" name="b2" value="2" onclick="addNumber(2)">
+                <input type="button" class="num maincolor" name="b3" value="3" onclick="addNumber(3)">
+                <input type="button" class="num2 maincolor" name="mul" value="*" onclick="multiplicar()"><br>
+
+                <input type="button" class="num maincolor" name="b0" value="0" onclick="addNumber(0)">
+                <input type="button" class="num1 maincolor" name="eql" value="=" onclick="resultado()">
+                <input type="button" class="num2 maincolor" name="div" value="/" onclick="dividir()"><br>
+
+                <input type="button" class="text1 maincolor" name="text12" value="Limpar Painel"
+                    onclick="limparPainel()"><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
